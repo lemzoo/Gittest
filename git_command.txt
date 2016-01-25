@@ -1,0 +1,17 @@
+Dans ce fichier, nous allons sauvegarder quelques commandes basiques pour GitHub
+
+-> Pour récupérer un projet créer sur le site de GitHub, il faut taper la commande suivante >> git clone "lien du projet sur le site de GitHub"
+
+-> Le projet sera chargé dans le dossier courant dans lequel se trouve le terminal. 
+
+-> Vous pouvez effectuer des modifications en local de l'ensemble des fichiers contenu dans le projet et aussi vous pouvez ajouter des fichiers et dossiers autant que vous voulez. 
+
+-> taper la commande suivante pour voir l'ensemble des modifications effectuer sur le projet : >> git status
+
+-> Pour ajouter les modifications au projet git, il faut taper la commande suivante : git --all. cette commande ajoute l'ensemble des modifications sur le projet. 
+
+-> Pour soumettre les modifications, il faut taper la commande suivante >>git commit -m "Message pour marquer la modification effectuée sur le projet"
+
+-> Pour soumettre vos modifications sur le serveur GitHub, il faut taper la commande suivante : >> git push. Le projet git sera updaté sur le serveur GitHub et vous pouvez voir vos modifications sur le site. 
+
+-> Vous pouvez directement modifier les fichiers sur le serveur GitHub. Pour que ces modifications soient prises en compte, il faut taper la commande suivante : >> git pull. Cette ligne de commande update les mises à jour effectué sur le serveur GitHub vers le pc local sur lequel le client Git est installé.
